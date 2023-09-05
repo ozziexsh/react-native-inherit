@@ -41,6 +41,10 @@ export default function App() {
 }
 ```
 
+This produces the following:
+
+![Screenshot of the above code output](./screenshot.jpeg)
+
 ## How it works
 
 Both the `<StyleProvider>` component and the re-exported React Native components with the `styleProvider` prop simply wrap a context that accepts the following styles:

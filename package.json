@@ -1,16 +1,18 @@
 {
   "name": "react-native-inherit",
   "version": "0.1.0",
-  "description": "",
+  "description": "Adds inheritable text styles to React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepack": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["react native", "react", "inherit", "cascade", "style"],
+  "author": "Ozzie Neher",
+  "homepage": "https://github.com/ozziexsh/react-native-inherit",
+  "repository": "github:ozziexsh/react-native-inherit",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.2.0",
     "react-native": "^0.72.4"
