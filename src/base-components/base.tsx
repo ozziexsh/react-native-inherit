@@ -1,4 +1,4 @@
-import { InheritableTextStyles, StyleProvider } from '@/style-provider';
+import { InheritableTextStyles, StyleProvider } from '../style-provider';
 import { ComponentPropsWithoutRef, ElementType, forwardRef } from 'react';
 
 export function createInheritedComponent<T extends ElementType>(Component: T) {

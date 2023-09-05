@@ -1,4 +1,4 @@
-import { useInheritedStyles } from '@/style-provider';
+import { useInheritedStyles } from '../style-provider';
 import { forwardRef } from 'react';
 import { Text as RNText, TextProps } from 'react-native';
 
